@@ -1,0 +1,253 @@
+{
+  "id": "ed7dc594-d4de-47b7-b18a-8328f2dc8d91",
+  "version": "2.0",
+  "name": "Testes",
+  "url": "https://client-test-qa-frontend-neobiome-husrbtcmsa-ue.a.run.app/pt-BR/dashboard?customer=F016",
+  "tests": [{
+    "id": "daebf449-2211-4f64-a0cf-fdf3619eb1d4",
+    "name": "Criando Filtros",
+    "commands": [{
+      "id": "461a244e-4316-4aa9-bece-a464f5d62fcb",
+      "comment": "",
+      "command": "open",
+      "target": "https://client-test-qa-frontend-neobiome-husrbtcmsa-ue.a.run.app/pt-BR/dashboard?customer=F016",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "734a3382-2844-4b3f-a27f-19fbe90dcac9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc90dd21-3d8b-4a9a-b300-1935467726a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Filtros Taxonômicos",
+      "targets": [
+        ["linkText=Filtros Taxonômicos", "linkText"],
+        ["css=.default-nav-item:nth-child(5) .ng-star-inserted:nth-child(2) > .dropdown-menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Filtros Taxonômicos')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/pt-BR/filter')]", "xpath:href"],
+        ["xpath=//li[5]/span/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Filtros Taxonômicos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eba6aa43-783b-44f7-a48a-3640ea125b30",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.e2e-add-TaxonomicFilter-button",
+      "targets": [
+        ["css=.e2e-add-TaxonomicFilter-button", "css:finder"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe0e468-7f35-4815-9087-38fb14645db5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.e2e-add-TaxonomicFilter-button",
+      "targets": [
+        ["css=.e2e-add-TaxonomicFilter-button", "css:finder"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70fffa1e-2c9e-47f5-8747-4be4a460340c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e2e-add-TaxonomicFilter-button .mat-icon",
+      "targets": [
+        ["css=.e2e-add-TaxonomicFilter-button .mat-icon", "css:finder"],
+        ["xpath=//div[2]/div[2]/button/span/mat-icon", "xpath:position"],
+        ["xpath=//mat-icon[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d1cd252-96fa-4772-ac8a-515a01c77d0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "063b8b71-060f-492a-869a-f07f26eff301",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filtro gabrielle"
+    }, {
+      "id": "4c97799c-6e1c-4582-b0bc-2851fa23d661",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-checkbox-inner-container",
+      "targets": [
+        ["css=.mat-checkbox-inner-container", "css:finder"],
+        ["xpath=//mat-checkbox[@id='mat-checkbox-1']/label/span", "xpath:idRelative"],
+        ["xpath=//mat-checkbox/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb0c10bb-ea8e-4a5f-99dd-365a93e44e90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-add-microrganisms",
+      "targets": [
+        ["css=.btn-add-microrganisms", "css:finder"],
+        ["xpath=//div[2]/div[2]/a/mat-icon", "xpath:position"],
+        ["xpath=//mat-icon[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ffe3e6b-bd0f-4612-bc54-b588592fe696",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dcd03c2-b64a-4cd8-a59c-00074ac971f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea52ab28-d9ea-4cff-8c5c-19596d799216",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused .mat-icon",
+      "targets": [
+        ["css=.cdk-focused .mat-icon", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/search-taxonomies-dialog/div/div/div/mat-dialog-content/taxonomies-table/div/div/mat-dialog-content/div/mat-table/mat-row[5]/mat-cell[4]/button/span/mat-icon", "xpath:idRelative"],
+        ["xpath=//mat-row[5]/mat-cell[4]/button/span/mat-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba235ae7-2309-4727-8a6f-7cb1ccf23aa5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(7) .mat-focus-indicator",
+      "targets": [
+        ["css=.mat-row:nth-child(7) .mat-focus-indicator", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/search-taxonomies-dialog/div/div/div/mat-dialog-content/taxonomies-table/div/div/mat-dialog-content/div/mat-table/mat-row[6]/mat-cell[4]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[6]/mat-cell[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "590057c2-1ca5-481a-838a-d9c47cf0a96f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(7) .mat-focus-indicator",
+      "targets": [
+        ["css=.mat-row:nth-child(7) .mat-focus-indicator", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/search-taxonomies-dialog/div/div/div/mat-dialog-content/taxonomies-table/div/div/mat-dialog-content/div/mat-table/mat-row[6]/mat-cell[4]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[6]/mat-cell[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d738ff8c-fae6-47c4-ae25-c1c7b21b597d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28c46af2-2b12-4e30-8c5a-770217ed4156",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused .mat-icon",
+      "targets": [
+        ["css=.cdk-focused .mat-icon", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/search-taxonomies-dialog/div/div/div/mat-dialog-content/taxonomies-table/div/div/mat-dialog-content/div/mat-table/mat-row[8]/mat-cell[4]/button/span/mat-icon", "xpath:idRelative"],
+        ["xpath=//mat-row[8]/mat-cell[4]/button/span/mat-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e71e3777-d22c-40d7-b9ee-9b36a150accc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(10) .mat-focus-indicator",
+      "targets": [
+        ["css=.mat-row:nth-child(10) .mat-focus-indicator", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/search-taxonomies-dialog/div/div/div/mat-dialog-content/taxonomies-table/div/div/mat-dialog-content/div/mat-table/mat-row[9]/mat-cell[4]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[9]/mat-cell[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67531325-4f8f-4ab7-b9e6-1dd266c0ba45",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(10) .mat-focus-indicator",
+      "targets": [
+        ["css=.mat-row:nth-child(10) .mat-focus-indicator", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/search-taxonomies-dialog/div/div/div/mat-dialog-content/taxonomies-table/div/div/mat-dialog-content/div/mat-table/mat-row[9]/mat-cell[4]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[9]/mat-cell[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4cea07b-99c4-492d-8519-187b00804477",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-button-wrapper > span",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper > span", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/search-taxonomies-dialog/div/mat-dialog-actions/div/div/button[2]/span/span", "xpath:idRelative"],
+        ["xpath=//mat-dialog-actions/div/div/button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e89829fc-1f14-4d4b-a78e-77dc053675c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-button-wrapper > .ng-star-inserted:nth-child(1)",
+      "targets": [
+        ["css=.mat-button-wrapper > .ng-star-inserted:nth-child(1)", "css:finder"],
+        ["xpath=//button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe03f8f9-0e1a-496d-bf0c-a703d1724f57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-button-wrapper > .ng-star-inserted:nth-child(1)",
+      "targets": [
+        ["css=.mat-button-wrapper > .ng-star-inserted:nth-child(1)", "css:finder"],
+        ["xpath=//button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17e2d89-a3f5-45cd-bdcc-d0fdff9d2045",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "52adcbc6-805e-4949-882d-9e9a6b25c39c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://client-test-qa-frontend-neobiome-husrbtcmsa-ue.a.run.app/pt-BR/dashboard?customer=F016"],
+  "plugins": []
+}
